@@ -1,8 +1,7 @@
 #!//usr/bin/python3
-"""Dictionary with the names of all the photographed birds in the database
+"""Dictionary with the names of all the photographed birds in the database Birds.
 """
 from PIL import Image
-from pathlib import Path
 import sys
 
 def main():
@@ -21,21 +20,21 @@ def main():
         try:
             img_appear.show()
         except IOError:
-            pass  
+            pass
 
-birds = {'American Goldfinch': {'1': Path('/Bird-visual-reference/test case birbs/AMERICAN GOLDFINCH/1.jpg'), 
-                                '2': Path('/Bird-visual-reference/test case birbs/AMERICAN GOLDFINCH/2.jpg'),
-                                '3': Path('/Bird-visual-reference/test case birbs/AMERICAN GOLDFINCH/3.jpg'),
-                                '4': Path('/Bird-visual-reference/test case birbs/AMERICAN GOLDFINCH/4.jpg'),
-                                '5': Path('/Bird-visual-reference/test case birbs/AMERICAN GOLDFINCH/5.jpg')},
- 'Alexandrine Parakeet': {'1':'/Bird-visual-reference/test case birbs/ALEXANDRINE PARAKEET',
+birds = {'American Goldfinch': {'1': '~/Bird-visual-reference/test case birbs/AMERICAN GOLDFINCH/1.jpg', 
+                                '2': '~/Bird-visual-reference/test case birbs/AMERICAN GOLDFINCH/2.jpg',
+                                '3': '~/Bird-visual-reference/test case birbs/AMERICAN GOLDFINCH/3.jpg',
+                                '4': '~/Bird-visual-reference/test case birbs/AMERICAN GOLDFINCH/4.jpg',
+                                '5': '~/Bird-visual-reference/test case birbs/AMERICAN GOLDFINCH/5.jpg'},
+ 'Alexandrine Parakeet': {'1':'/Users/liamk./Downloads/Bird-visual-reference/test case birbs/ALEXANDRINE PARAKEET/1.jpg',
                          '2': '/Bird-visual-reference/test case birbs/ALEXANDRINE PARAKEET/2.jpg', 
                          '3': '/Bird-visual-reference/test case birbs/ALEXANDRINE PARAKEET/3.jpg', 
                          '4': '/Bird-visual-reference/test case birbs/ALEXANDRINE PARAKEET/4.jpg', 
                          '5': '/Bird-visual-reference/test case birbs/ALEXANDRINE PARAKEET/5.jpg'}, 
  'Black Swan': {'1': '/Bird-visual-reference/test case birbs/BLACK SWAN/1.jpg',
                 '2': '/Bird-visual-reference/test case birbs/BLACK SWAN/2.jpg',
-                '3': '/Bird-visual-reference/test case birbs/BLACK SWAN/3.jpg',
+                '3': '/Users/liamk./Downloads/Bird-visual-reference/test case birbs/BLACK SWAN/3.jpg',
                 '4': '/Bird-visual-reference/test case birbs/BLACK SWAN/4.jpg',
                 '5': '/Bird-visual-reference/test case birbs/BLACK SWAN/5.jpg'},
  'Curl Crested Aracuri': {'1': '/Bird-visual-reference/test case birbs/CURL CRESTED ARACURI/1.jpg',
